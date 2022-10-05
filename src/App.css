@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+body {
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Peralta', cursive;
+  background: url(./city.jpeg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.Name {
+  font-size: large;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none; 
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.mapbtn {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid yellow;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Peralta', cursive;
+}
+
+.mapbtn:after {
+  content: "";
+  background-color: #80bdd2;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.mapbtn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .mapbtn {
+    padding: 13px 50px 13px;
+  }
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.App-footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: #076585;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-align: center;
+   z-index: 0;
+}
+
+.logo {
+  height: 45px;
+  padding-top: 15px;
+}
+
+.Background {
+  position: fixed;
+  top: 7%;
+  margin: 1%; 
+  width: 100vw;
+}
+
+.space {
+  width: 20%;
+}
+
+#demo-customized-button{
+  font-family: 'Peralta', cursive;
+}
+
+#filled-basic, #input_quantity {
+  font-family: 'Peralta', cursive;
+  color:  #333;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Wrap {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+form.Wrap button {
+  width: auto;
+}
+
+.type {
+  margin: 0;
+  display: flex;
+}
+
+form.Wrap input {
+  width: 100%;
+} 
+
+.checklist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  z-index: 0;
+  margin: 0 auto; 
+  color: yellow;
+}
+
+.Rights {
+  position: fixed;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  background: -webkit-linear-gradient(#bdc3c7,#2c3e50);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#demo-customized-button {
+  background-color: rgba(0, 0, 0, 0.06);  
+  color: #636161;
+  display: flex;
+}
+
+#demo-customized-plus {
+  background-color:#80bdd2;
+}
+
+.share {
+  margin-top: 9%;
+  /* text-align: end; */
+}
+
+.App-header {
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-size: 60px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+.App-link {
+  color: #61dafb;
+}
+
+#filled-basic-label {
+  font-family: 'Peralta', cursive;
+}
+
+#input_quantity-label {
+  font-family: 'Peralta', cursive;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%; 
+  font-size: 28px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animation {
+  font-size: 18px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btns {
+  margin-top: 1%;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #80bdd2;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Peralta', cursive;
+}
+
+.btns:focus {
+  color: #80bdd2;
+}
+
+.btns:hover {
+  border-color: yellow;
+  color: yellow;
+  fill: yellow;
+}
+
+.btns:active {
+  border-color: yellow;
+  color: yellow;
+  fill: yellow;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
