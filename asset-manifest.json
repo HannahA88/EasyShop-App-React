@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/relativepath/static/css/main.e80469e4.css",
-    "main.js": "/relativepath/static/js/main.c53d60e4.js",
-    "static/js/787.c0dd3fe4.chunk.js": "/relativepath/static/js/787.c0dd3fe4.chunk.js",
-    "static/media/city.jpeg": "/relativepath/static/media/city.12f1619dab29af608f55.jpeg",
-    "static/media/logo.svg": "/relativepath/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/relativepath/index.html",
-    "main.e80469e4.css.map": "/relativepath/static/css/main.e80469e4.css.map",
-    "main.c53d60e4.js.map": "/relativepath/static/js/main.c53d60e4.js.map",
-    "787.c0dd3fe4.chunk.js.map": "/relativepath/static/js/787.c0dd3fe4.chunk.js.map"
+    "main.css": "/EasyShop-App-React/static/css/main.3429d62b.css",
+    "main.js": "/EasyShop-App-React/static/js/main.ad738394.js",
+    "static/js/787.c0dd3fe4.chunk.js": "/EasyShop-App-React/static/js/787.c0dd3fe4.chunk.js",
+    "static/media/city.jpeg": "/EasyShop-App-React/static/media/city.12f1619dab29af608f55.jpeg",
+    "static/media/logo.svg": "/EasyShop-App-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EasyShop-App-React/index.html",
+    "main.3429d62b.css.map": "/EasyShop-App-React/static/css/main.3429d62b.css.map",
+    "main.ad738394.js.map": "/EasyShop-App-React/static/js/main.ad738394.js.map",
+    "787.c0dd3fe4.chunk.js.map": "/EasyShop-App-React/static/js/787.c0dd3fe4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e80469e4.css",
-    "static/js/main.c53d60e4.js"
+    "static/css/main.3429d62b.css",
+    "static/js/main.ad738394.js"
   ]
 }
