@@ -175,7 +175,8 @@ form.Wrap input {
 }
 
 .share {
-  margin-top: 9%;
+  margin-top: 7%;
+  /* position:fixed */
   /* text-align: end; */
 }
 

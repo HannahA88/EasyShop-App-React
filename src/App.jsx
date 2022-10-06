@@ -56,9 +56,7 @@ function App() {
       <header className="App-header">
         <div>EasyShop</div>
       </header>
-
-      {/* <form className="Wrap" onSubmit={(() => handleOnSubmit)}> */}
-
+      
     <Box className="Wrap" onSubmit={(() => handleOnSubmit)}
         component="form"
         sx={{
@@ -131,6 +129,6 @@ function App() {
 
 export default App;
 
-{/* <img src={applogo} className="Applogo" alt="" /> */}
+
 
 
